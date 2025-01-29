@@ -1,0 +1,58 @@
+<?php
+
+$hostname = 'localhost';
+$hostuser = 'root';
+$hostpass = '';
+$dbname = 'job_portal';
+$conn = mysqli_connect($hostname, $hostuser, $hostpass, $dbname);
+if (!$conn) {
+    echo 'could not connect';
+}?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job_Finder</title>
+    <link rel="stylesheet" href="css_reg.css">
+    <script src="javascript/js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class ="title"></div>
+        <div class="title">Your Career'S Oppprtunity <br>Find the most exciting startup jobs</div>
+        <form action="./php/register.php" method="post" name = "form1">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Job Title</span>
+                    <select>
+                        <?php
+                          $sqlj="SELECT * FROM job";
+                          $resj=mysqli_query($con,$sqlj);
+                          while($dat=mysqli_fetch_assoc($resj)){
+                          echo '<option>'.$dat['job
+                          }
+                          ?>
+                    </select>
+                    <input type="text" placeholder=" Enter the job title/key" 
+                    name="company_name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Experience</span>
+                    <input type="text" placeholder="Enter your Experience"  name="comp_username">
+                </div>
+                <div class="input-box">
+                    <span class="details">Location</span>
+                    <select name="" id="">
+                        <option value="">Addis Abeba</option>
+                        <option value="">Injibara</option>
+                    </select>
+                </div>    
+            </div> 
+        <div class="button">
+            <input type="submit" name="submit" id="" value="Find">
+        </div>  
+        </form>
+    </div>
+</body>
+</html>

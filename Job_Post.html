@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Post</title>
+    <link rel="stylesheet" href="css_reg.css">
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Post Job</div>
+        <form action="./php/register.php" method="post" name = "form1">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Conpany Name</span>
+                    <input type="text" placeholder=" &nbsp Enter your Company name" 
+                    name="Compname">
+                </div>
+                <div class="input-box">
+                    <span class="details">JOb ID</span>
+                    <input type="text" placeholder="Enter your Job ID"  name="Job_ID">
+                </div>
+                <div class="input-box">
+                    <span class="details">Job Type</span>
+                    <input type="text" placeholder="Enter your Job Type here"  name="Job_type">
+                </div>
+                <div class="input-box">
+                    <span class="details">Required Sex</span>
+                    <input type="text" placeholder="Enter your Gender"  name="gender">
+                </div>
+                <div class="input-box">
+                    <span class="details">Experince</span>
+                    <input type="text" placeholder="Enter your Exprience level"  name="xp">
+                </div>
+                <div class="input-box">
+                    <span class="details">Location</span>
+                    <input type="text" placeholder="Enter Your location here"  name="loc">
+                </div>
+            </div>  
+        <div class="button">
+            <input type="submit" name="submit" id="" value="Send">
+        </div>  
+        </form>
+    </div>
+</body>
+</html>

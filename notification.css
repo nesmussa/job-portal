@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex; 
+    align-items: center;
+    background: #00A9D4;
+    height: 60px;
+    position: relative;
+}
+.icon{
+    cursor: pointer;
+    margin-right: 50px;
+    line-height: 60px;
+}
+.icon span{
+    background: #f00;
+    padding: 7px;
+    border-radius: 50%;
+    color: #fff;
+    vertical-align: top;
+    margin-left: -25px;
+}

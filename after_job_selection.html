@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css_reg.css">
+    <script src="javascript/js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title"></div>
+        <div class="title1">We appricate For Applying
+        Thankyou !!!</div>
+        <div class="title1">Please, Fullfill The Form</div>
+        <div class="title"></div>
+        <form action="PHP/after_job.php" method="post" name = "form1">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name</span>
+                    <input type="text" placeholder=" &nbsp Enter your first name" 
+                    name="firstname">
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" placeholder="Enter your last name"  name="lastname">
+                </div>
+                <div class="input-box">
+                    <span class="details">User Name</span>
+                    <input type="text" placeholder="Enter your username"  name="username">
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter your email here"  name="email">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your number"  name="po_no">
+                </div>
+                <div class="input-box">
+                    <span class="details">Birth Day</span>
+                    <input type="text" placeholder="Birthday"  name="bdh">
+                </div>
+            </div>
+        <div class="gender-details">
+            
+                <div class="cv">
+                    <span id="details">Enter Your <acronym title="">CV</acronym> Here <span style="color: red;">*Only in Image*</span></span><br>
+                    <input type="file" name="CV_" id="" style="margin-bottom: 15px;">
+                </div>
+        </div> 
+        <div class="input-box1">
+            <input type="checkbox">
+            <span class="details11" >I agreed to the defined<a href="" class="a"> terms, conditions and policies</a></span>
+        </div>
+        <div class="button">
+            <input type="submit" name="submit" id="" value=" Submit">
+        </div>  
+        </form>
+    </div>
+</body>
+</html>

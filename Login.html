@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        <form action="./php/login.php" method="post">
+            <div class="txt_field">
+                <input type="text" name="username" id="">
+                <span></span>
+                <label for="" id="user">Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="password" id="">
+                <span></span>
+                <label for="">Password</label>
+            </div>
+            <div class = "signup_link" style="font-size: 20px;">
+                <label for="" style="color: #228cdc;">Login as:</label>
+                <select name="loginas" id="" style="color: #228cdc; cursor: pointer;">
+                    <option value="employee" >Job Finder</option>
+                    <option value="employer" >Candidate Finder</option>
+                    <option value="assd"> Student </option>
+                </select>
+            </div>
+            <div class="pass">Forgot Password?</div>
+            <input type="submit" name="submit" value="Login" class="submit">
+            <div class = "signup_link">
+                Not a member? <a href="Registeration_page.html">Signup</a> || <a href="Company_reg.html">Signup as Company</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

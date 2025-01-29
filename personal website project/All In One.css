@@ -1,0 +1,172 @@
+
+.container{
+    text-align: center;
+}
+#Home_Table{
+    padding: 2.5em;
+    font-size: 50px;
+    height: 100%;
+}
+#First_head{
+    margin-bottom: 0%;
+}
+#Second_header{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Image{
+    border-radius: 15%;
+    width: 80%;
+    height: 50%;
+}
+.kk{
+    text-align: center;
+}
+.fanc{
+    clip-path: circle();
+    width: 60%;
+    text-align: center;
+}
+#sanc{
+    text-decoration: none;
+}
+.first_anchor{
+    display: block; 
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400; 
+    font-size: 15px;
+    text-align: center;
+}
+.Second_header{
+    width: 12%; 
+    border-radius: 50%;
+}
+.t1{
+    width: 70%; 
+    height: 100%;
+}
+#About{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 5px;
+}
+#About1{
+    margin-right: 0; 
+    font-size: 1.25rem; 
+    line-height: 1.5; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.first_anchor:hover{
+    text-decoration: underline;
+}
+.kk_fanc{
+    clip-path: circle();
+    width: 60%;
+    text-align: center;
+    transition: .5s;
+}
+.kk_fanc:hover{
+    text-decoration: underline;
+}
+#sanc:hover{
+    text-decoration: underline;
+}
+.name{
+    display: block;
+    text-decoration: none;
+}
+.name:hover{
+    text-decoration: underline;
+}
+.sub{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6 );
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    margin-left: 30px;
+}
+.sub:hover{
+    background: linear-gradient(135deg, #9b59b6, #71b7e6 );
+}
+.inside{
+    font-size: 20px;
+}
+
+
+
+     /* Skills CSS */
+.table{
+    width: 70%; 
+    border-color: #bf8040; box-shadow: 5px 8px 10px;
+}
+
+.f_td{
+    padding: 7%; 
+    width: 15%; 
+    background-color: #bf8040;
+}
+
+.S_td{
+    background-color: #bf8040;
+    
+}
+.f_h{
+    font-size: 16px;
+    margin-bottom: px; 
+    color: #86592d; 
+    font-weight: 400; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.s_h{
+    line-height: 1.2; font-weight: 600;
+}
+
+.T_td{
+    font-size: 16px;margin-bottom: 5px; font-family: Arial, Helvetica, sans-serif; font-weight: 400;color: #86592d;
+}
+
+.F_span{
+    line-height: 1.2;
+    font-weight: 600;
+}
+.table1{
+    width: 70%;
+    border-color: #bf8040; box-shadow: 10px 25px 30px; box-shadow: 5px 8px 10px
+}
+.f_td{
+    padding: 7%; 
+    width: 15%; 
+    background-color: #bf8040;
+}
+
+.ni_td{
+    font-size: 16px;margin-bottom: 5px; color: #86592d; font-weight: 400; font-family: Arial, Helvetica, sans-serif;
+}
+.te_td{
+    line-height: 1.2; font-weight: 600;
+}
+.table3{
+    width: 70%; border-color: #bf8040; box-shadow: 5px 8px 10px;
+}
+.ele_td{
+    padding: 7%; width: 15%; background-color: #bf8040;
+}
+.thi_td{
+    font-size: 16px;margin-bottom: 5px; font-family: Arial, Helvetica, sans-serif; font-weight: 400;color: #86592d;
+}
+.fou_td{
+    line-height: 1.2; font-weight: 600;
+}
+.fiv_td{
+    width: 70%; border-color: #bf8040; box-shadow: 5px 8px 10px;
+}
+.sixte_td{
+    padding: 7%; width: 15%; background-color: #bf8040;
+}

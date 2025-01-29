@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Registration</title>
+    <link rel="stylesheet" href="css_reg.css">
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration Form</div>
+        <form action="./php/company_register.php" method="post" name = "form1">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Company Name</span>
+                    <input type="text" placeholder=" &nbsp Enter your name" 
+                    name="company_name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Company UserName</span>
+                    <input type="text" placeholder="Enter your username"  name="comp_username">
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="email" placeholder="Enter your email here"  name="email">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your number"  name="po_number">
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" placeholder="Enter your password"  name="password">
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" placeholder="Confirm password"  name="C_password">
+                </div>
+            </div> 
+        <div class="button">
+            <input type="submit" name="submit" id="" value="Register ">
+        </div>  
+        </form>
+    </div>
+</body>
+</html>
